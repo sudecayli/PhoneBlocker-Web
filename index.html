@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <title>CareYourself</title>
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fs-5 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-4 fw-bolder" href="#">
+          <img src="img/call.jpg" alt="" class="img-fluid" />
+          CareYourself
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fw-medium">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#homelink">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#motivationlink">Motivation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#focuslink">Focus</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- main section -->
+    <div class="container p-5 mt-5 text-center" id="homelink">
+      <h2 class="py-4">
+        How many times have you been distracted by your phone since you started
+        working?
+      </h2>
+      <button id="btn" class="rounded-3 fs-4 m-4 fw-medium">
+        If you looked, click!
+      </button>
+      <div>
+        <p class="feedbackmessage fs-4">
+          You've been distracted by your phone
+          <span id="display" class="fw-bold">0</span> times since you started
+          working
+        </p>
+      </div>
+    </div>
+    <!-- motivation section -->
+    <div class="hero">
+      <div class="blog-container" id="motivationlink">
+        <div class="container">
+          <div class="text-center pb-4">
+            <p class="fs-5 text-muted">
+              Let's take a look at the comments of our visitors who have
+              experienced tasting our coffee.
+            </p>
+          </div>
+          <div class="row m-4">
+            <div class="col-lg-4 mb-4">
+              <div class="card h-100 shadow">
+                <img
+                  src="img/TEDxPaloAlto-374_401597.jpg"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div>
+                    <span class="mb-2 badge text-bg-primary">News</span>
+                    <h5>Why is it so hard to break a bad habit?</h5>
+                  </div>
+                  <p class="card-text">
+                    Many people deal with a nail-biting habit at some point in
+                    their lives. Some will go to great lengths to try to stop,
+                    employing strategies like dipping their hands in salt or
+                    wearing gloves. And while not all of us are nail-biters,
+                    most of us do have a habit we'd like to kick. So, what's the
+                    best way to break one? …
+                  </p>
+                  <div class="card-footer p-4 ps-0 bg-transparent border-top-0">
+                    <div class="justify-content-between d-flex align-items-end">
+                      <div class="align-items-center d-flex">
+                        <button class="button"><span>Go to talk </span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card h-100 shadow second">
+                <img
+                  src="img/PIC_featured.jpg"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div>
+                    <span class="mb-2 badge text-bg-primary">News</span>
+                    <h5>How to Find Attention</h5>
+                  </div>
+                  <p class="card-text">
+                    Attention isn't just about what we focus on -- it's also
+                    about what our brains filter out. By investigating patterns
+                    in the brain as people try to focus, computational
+                    neuroscientist Mehdi Ordikhani-Seyedlar hopes to build
+                    computer models that can be used to treat ADHD and help
+                    those who have lost the ability to communicate.
+                  </p>
+                  <div class="card-footer p-4 ps-0 bg-transparent border-top-0">
+                    <div class="justify-content-between d-flex align-items-end">
+                      <div class="align-items-center d-flex">
+                        <button class="button"><span>Go to talk </span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card h-100 shadow second">
+                <img
+                  src="img/LeraBoroditsky_2017W-embed.jpg"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div>
+                    <span class="mb-2 badge text-bg-primary">News</span>
+                    <h5>Finding motivation, passion and energy in our work</h5>
+                  </div>
+                  <p class="card-text">
+                    Work takes up an enormous chunk of our lives and there is a
+                    lot of talk about how stressful work is, but what about the
+                    ways in which work inspires, motivates and energises us? In
+                    this TEDx talk, Deirdre O'Shea speaks up in defence of
+                    work..
+                  </p>
+                  <div class="card-footer p-5 ps-0 bg-transparent border-top-0">
+                    <div class="justify-content-between d-flex align-items-end">
+                      <div class="align-items-center d-flex">
+                        <button class="button"><span>Go to talk </span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- focus song section -->
+    <div class="container">
+      <div class="px-4 my-3 text-center">
+        <h3 class="p-4 fs-2">
+          Don't you want to listen to music while working?
+        </h3>
+        <div>
+          <iframe
+            class="mySlides"
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1EIfjzgnbx4yqL?utm_source=generator"
+            width="100%"
+            height="352"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+          <iframe
+            class="mySlides"
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/playlist/0EncHaaOPWyUSvpvwFRaS2?utm_source=generator"
+            width="100%"
+            height="352"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+          <iframe
+            class="mySlides"
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/playlist/6Cf1qYa6QwYB70TVDBIaE3?utm_source=generator"
+            width="100%"
+            height="352"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="container px-4 my-3" id="focuslink">
+      <h4 class="fs-2 text-center mt-4">Apps that make it easier to focus</h4>
+      <p class="fs-3 fw-medium">RescueTime</p>
+      <img
+        src="img/rescuetime-dashboard-1536x574.png"
+        alt=""
+        class="img-fluid"
+      />
+      <ul class="mt-3 fs-5">
+        <li class="mt-2">
+          Automatic Time Tracking: RescueTime records how much time I spend on
+          different daily activities, so I know exactly which websites should be
+          blocked
+        </li>
+        <li class="mt-2">
+          Distraction blocking: The app blocks websites and apps that might take
+          away my attention from work.
+        </li>
+        <li class="mt-2">
+          Detailed reports: I always get graphs, goal setting, and visualization
+          of both my productive and unproductive tasks
+        </li>
+      </ul>
+      <div class="px-2">
+      <a href="#" class="download-btn text-white">
+        <i class="fas fa-download download-icon"></i>
+        Download for Free
+      </a>
+      <a href="#" class="download-btn text-white">
+        <i class="fas fa-download download-icon"></i>
+        Download for Pro
+      </a>
+    </div>
+      <p class="fs-3 fw-medium mt-4">Motion AI</p>
+      <img src="img/freedom-dashboard-1536x511.png" alt="" class="img-fluid" />
+      <ul class="mt-3 fs-5">
+        <li class="mt-2">
+          Motion AI takes advantage of artificial intelligence, reducing
+          distractions and enhancing productivity.
+        </li>
+        <li class="mt-2">
+          AI is increasingly widespread in our lives, and we must learn to take
+          advantage of it.
+        </li>
+        <li class="mt-2">
+          It’s also a great productivity tool both for professionals and for
+          teams, creating an agenda customized for you.
+        </li>
+      </ul>
+      <div class="px-2">
+        <a href="#" class="download-btn text-white">
+          <i class="fas fa-download download-icon"></i>
+          Download for Free
+        </a>
+        <a href="#" class="download-btn text-white">
+          <i class="fas fa-download download-icon"></i>
+          Download for Pro
+        </a>
+        <p class="fs-3 fw-medium mt-4">Forest</p>
+        <img src="img/forest-app-1536x606.png" alt="" class="img-fluid" />
+        <ul class="mt-3 fs-5">
+          <li class="mt-2">
+            Forest App is super cool because it turns focus time into a game.You
+            plant a virtual tree, and if you stick to your work and don’t touch
+            your phone, the tree grows
+          </li>
+          <li class="mt-2">
+            AI is increasingly widespread in our lives, and we must learn to
+            take advantage of it.
+          </li>
+          <li class="mt-2">
+            It’s also a great productivity tool both for professionals and for
+            teams, creating an agenda customized for you.
+          </li>
+        </ul>
+        <div class="px-2 mb-5">
+          <a href="#" class="download-btn text-white">
+            <i class="fas fa-download download-icon"></i>
+            Download for Free
+          </a>
+          <a href="#" class="download-btn text-white">
+            <i class="fas fa-download download-icon"></i>
+            Download for Pro
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark py-4 mt-auto mt-5">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between flex-md-row flex-column">
+                <div class="col-auto">
+                    <div class="text-white">Copyright © CAYLI,Sude</div>
+                </div>
+                
+            </div>
+        </div>
+    
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
